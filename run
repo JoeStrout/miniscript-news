@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Run the MiniScript Weekly News generator in its micromamba environment.
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+MAMBA="${MAMBA_EXE:-$HOME/.local/bin/micromamba}"
+exec "$MAMBA" run -n miniscript-news python "$SCRIPT_DIR/generate.py" "$@"

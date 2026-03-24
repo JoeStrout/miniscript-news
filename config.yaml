@@ -1,0 +1,63 @@
+# MiniScript Weekly News - Configuration
+
+# GitHub repos to check for DEV_LOG.md/commit updates
+github_repos:
+  - "JoeStrout/miniscript"
+  - "JoeStrout/miniscript2"
+  - "JoeStrout/minimicro-sysdisk"
+  - "JoeStrout/minimicro2"
+  - "JoeStrout/raylib-miniscript"
+
+# GitHub personal access token (or set GITHUB_TOKEN env var)
+# github_token: null
+
+# itch.io developers to watch
+itchio_devs:
+  - "joestrout"
+  - "florian-castel"
+  - "donnadie"
+
+# Discord settings
+discord_channels:
+  - channel_id: "646000428441534478"
+    name: "general"
+  - channel_id: "646000634222477313"
+    name: "mini-micro"
+  - channel_id: "646000734826922005"
+    name: "show-and-tell"
+  - channel_id: "690659177286336522"
+    name: "game-jam"
+  - channel_id: "697284055124803667"
+    name: "game-ideas"
+  - channel_id: "871383630709129296"
+    name: "soda"
+  - channel_id: "880151760486924290"
+    name: "social_media"
+  - channel_id: "1189955959754342450"
+    name: "ports"
+  - channel_id: "735122481509302473"
+    name: "project_ideas"
+  - channel_id: "1436448366140592248"
+    name: "raylib-miniscript"
+  - channel_id: "1412575229699559575"
+    name: "miniscript-2"
+  - channel_id: "1439240871261503559"
+    name: "minimicro-2"
+    
+
+# dev.to authors to check for MiniScript-related posts
+devto_authors:
+  - "kartik_patel"
+  - "JoeStrout"
+  - "treytomes"
+  - "dungeoncrawlsoft"
+
+# Directory for manual blurbs
+manual_dir: "manual"
+
+# LLM settings
+llm:
+  provider: "openai"
+  model: "gpt-5.4-mini"
+  input_price_per_m: 0.75    # $/1M input tokens
+  output_price_per_m: 4.50   # $/1M output tokens
